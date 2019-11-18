@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#0a0d1b"
+    android:background="#504148"
+    tools:context="com.ashiksplanet.asheqerabbani.t_shirtdistribution.MainActivity">
+
+    <Button
+        android:id="@+id/checkin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="179dp"
+        android:background="#72d687"
+        android:fontFamily="sans-serif"
+        android:onClick="checkIn"
+        android:text="Check In"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkin"
+        android:layout_marginTop="14dp"
+        android:background="#71d686"
+        android:onClick="checkOut"
+        android:text="Check out"
+        android:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ashiksplanet.asheqerabbani.t_shirtdistribution.infoActivity"
+
+    android:backgroundTint="#0a0d1b"
+    android:background="#504148">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Information"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/background_light"
+        android:textSize="31dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:textSize="21dp"
+        android:textAlignment="center"
+        android:hint="Id will here"
+        android:layout_marginTop="31dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        tools:ignore="DuplicateIds" />
+</RelativeLayout>
